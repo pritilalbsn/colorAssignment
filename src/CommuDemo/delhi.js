@@ -1,6 +1,6 @@
 import React from 'react';
 import Mumbai from './mumbai';
-import Raipur from './raipur';
+
 import Banglore from './banglore';
 
 export default class Delhi extends React.Component {
@@ -22,7 +22,6 @@ export default class Delhi extends React.Component {
             <div>
                 <Mumbai color={this.state.color} handleColor={this.changeColor} />
                 <Banglore />
-                <Raipur />
             </div>
         );
     }
